@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     
+    <style>
+            body{ margin: 0%;
+                  padding: 0%;
+                  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjcdviyub5R0sPikw4TLJW7AbFT86F1w4r4A&usqp=CAU);
+                  background-position: center;
+                  background-repeat: no-repeat;
+                  background-size: cover;
+                  height: 100vh;
+            }
+
+            header{display: flex;
+                   justify-content: space-between;
+                   background: linear-gradient(45deg,green,rgb(216, 150, 50),rgb(71, 71, 204));
+                   border: 2px solid black;
+                   align-items: center;
+        
+                }
+
+            ul{display: flex;
+               justify-content: space-between;
+               width: 400px;
+               align-items: center;
+            }
+            
+           
+            form input{
+                width: 100%;
+                margin-bottom: 15px;
+                height: 20px ;}
+
+                form {box-shadow: 0 0 10px black;
+              padding: 25px;
+              border-radius: 25px;
+            color: rgb(219, 91, 17);}
+              
+           .a1  {border: solid 5px  rgb(219, 91, 17);
+               
+                 position:absolute;
+                 top: 85%;
+                 left: 50%;
+                 transform: translate(-50%,-50%);
+        padding: 80px;
+        
+               justify-content: center;
+            display: flex;
+            align-items: center; }
+
+         
+
+    </style>
+</head>
+<body>
+    
+    
+    <div>     
+    <header>
+        <h1>welcometo signin page</h1>
+         
+        <input type="text" name="search" placeholder="search here">
+        <i class="fa fa-search fa-lg"></i>
+        <ul>
+             <li><a href="./home.html">home</a></li>
+             <li><a href="# signin.html"></a>signin</li>
+             <li><a href="./feedback.html">feedback</a></li>
+             <li><a href="./about.html">about</a></li>
+            
+            
+                   </ul>
+            </header>             
+          </div>
+ 
+          <div class="a1">    
+               
+            <form >
+                     <h2>signin form</h2>
+             <label >firstName:</label>
+             <input type="text" name="firstname">
+             <br>
+             <label>lastname:</label>
+             <input type="text" name="lastname">
+             <br>
+             <label>emailAddress:</label>
+             <input type="email" name="emailaddress">
+             <br>
+             <label>phonenumber:</label>
+             <input type="number" name="phone number">
+             <br>
+             <label>password:</label>
+             <input type="password" name="password">  
+             <br>         
+             <label>gender:</label>
+            <br>
+            male
+            <input type="radio" name="gender">
+            female
+            <input type="radio" name="gender">
+             other
+             <input type="radio" name="gender">
+
+             <br>
+             <label>terms and conditions</label>
+             <input type="checkbox" name="checkbox">
+             <br>
+            <input type="submit">
+
+                      </form>
+            </div>
+                  
+        
+</body>
+</html>
